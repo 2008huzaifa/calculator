@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="data:image/png;base64,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" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+
+    <center>
+        <div style="background-color: black;color: white;width: 260px;border-radius: 10px;">
+            <br><br>
+            <div>
+                <input placeholder="0"
+                    style="text-align: right;font-family: serif;font-weight: bold; height: 40px;width: 200px;font-size: 25px;"
+                    id="inp" type="text">
+            </div>
+            <br>
+            <div>
+                <button style="font-size: 20px;" onclick="clr()">AC</button>
+                <button onclick="last()"><img style="text-align: center;" width="19px"
+                        src="https://icons.veryicon.com/png/o/education-technology/calculator/delete-315.png"
+                        alt=""></button>
+                <button style="font-size: 20px;" onclick="btn()">%</button>
+                <button style="font-weight: bold;" class="op" onclick="btn('/')">÷</button>
+            </div>
+            <br>
+            <div>
+                <button class="num" onclick="btn(7)">7</button>
+                <button class="num" onclick="btn(8)">8</button>
+                <button class="num" onclick="btn(9)">9</button>
+                <button style="font-weight: bold;" class="op" onclick="btn('*')">x</button>
+            </div>
+            <br>
+            <div>
+                <button class="num" onclick="btn(4)">4</button>
+                <button class="num" onclick="btn(5)">5</button>
+                <button class="num" onclick="btn(6)">6</button>
+                <button style="font-weight: bold; " class="op" onclick="btn('-')">-</button>
+            </div>
+            <br>
+            <div>
+                <button class="num" onclick="btn(1)">1</button>
+                <button class="num" onclick="btn(2)">2</button>
+                <button class="num" onclick="btn(3)">3</button>
+                <button style="font-weight: bold;" class="op" onclick="btn('+')">+</button>
+            </div>
+
+
+            <br>
+            <div>
+                <button class="num" style="width: 105px;" onclick="btn(0)">0</button>
+                <button class="num" onclick="btn('.')">.</button>
+                <button style="font-weight: bold;" class="op" onclick="ans()">=</button>
+            </div>
+
+            <br>
+
+
+
+
+
+
+
+        </div>
+    </center>
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
